@@ -3,8 +3,8 @@ var fs = require('fs')
     http = require('http'),
     exec = require('child_process').exec,
 	_ = require('underscore'),
-    Geo = require('./geo');
-  var bodyParser = require('body-parser');
+    Geo = require('./geo'),
+  bodyParser = require('body-parser');
 
 function dpc(t,fn) { if(typeof(t) == 'function') setTimeout(t,0); else setTimeout(fn,t); }
 

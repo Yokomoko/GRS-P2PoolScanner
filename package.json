@@ -7,8 +7,8 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "*",
-    "json" : "*",
-    "underscore" : "*"
+    "json": "*",
+    "underscore": "*"
   },
   "engines": {
     "node": "*"
@@ -18,5 +18,4 @@
     "url": "https://github.com/donSchoe/p2pool-scanner.git"
   },
   "readmeFilename": "README.md"
-
 }
